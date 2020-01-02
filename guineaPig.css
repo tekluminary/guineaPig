@@ -1,0 +1,56 @@
+﻿body
+{
+ 
+}
+.victory quote label{
+    text-align:start;
+}
+.topNav {
+    width: 100%;
+    height: 38px;
+    background-color: #0b98de;
+
+}
+nav a {
+    display: block;
+    float: left;
+    font-family: 'Kulim Park', sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: inherit;
+    padding-left: 10px;
+    text-decoration: none;
+    border: 1px solid #000000;
+    height: inherit;
+}
+    nav a:hover {
+        color: #000000;
+        background-color: #75dbf5;
+        padding-bottom: inherit;
+    }
+#navLogo {
+    font-family: 'Hind',sans-serif;
+    font-size: 30px;
+    letter-spacing: -2px;
+    word-spacing: 3px;
+    text-shadow: 2px 1px 2px #000000;
+    padding-top: 2px;
+    padding-bottom: inherit;
+    background-color:inherit;
+    border: none;
+  
+    
+    
+}
+#navLogo:hover{
+    color: #FFFFFF
+}
+#socialLinks{
+    display: block;
+    margin-bottom: 0px;
+}
+#socialLinks:hover{
+    overflow: hidden;
+}

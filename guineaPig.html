@@ -1,0 +1,98 @@
+﻿ <!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="guineaPig.css" />
+
+</head>
+<body>
+    <nav class="topNav">
+        <a id="navLogo" href="" target="_blank">Ginseng Battle Force</a>
+        <div class="navLinks">
+            <a href="" target="_parent">Fight Menu</a>
+            <a href="" target="_parent">Store</a>
+            <a href="" target="_parent">News</a>
+            <a href="" target="_parent">Add-Ons</a>
+            <a href="" target="_parent">Stats</a>
+            <a href="" target="_parent">Settings</a>
+            <div id="socialLinks">
+                <a href="https://www.facebook.com/" target="_blank" alt="Facebook.com"><img src="C:\Users\Thomas\Desktop\guineaPig\fb_logob&w.jpeg" height="30" width="30"/></a>
+                <a href="https://www.instagram.com/" target="_blank" alt="Instagram.com"><img src="C:\Users\Thomas\Desktop\guineaPig\insta_logob&w.jpeg" height="30" width="30"/></a>
+                <a href="https://twitter.com/" target="_blank" alt="Twitter.com"><img src="C:\Users\Thomas\Desktop\guineaPig\twitter-Logo_b&w.jpeg" height="30" width="30"/></a>
+            </div>
+        </div>
+    </nav>
+    <br /><br />
+
+    <!--fighter selection-->
+    <form>
+        <section class="fighter selector">
+            <label for="options">Pick Your Fighter!</label>
+            <select id="options">
+                <option value="big smoke">Big Smoke</option>
+                <option value="cj">CJ</option>
+                <option value="ol'saint nick">Ol' Saint Nick</option>
+                <option value="baby yoda">Baby Yoda</option>
+                <option value="keanu">Keanu</option>
+                <option value="dio brando">Dio</option>
+                <option value="joseph joestar">Jojo</option>
+                <option value="pepe">Pepe</option>
+                <option value="Apu">Apu(kek)</option>
+
+
+            </select>
+            <!--costume selector-->
+            <label for="costume">Costume:</label>
+
+            <select>
+            </select>
+        </section>
+        <br /><br />
+        <!--special moves-->
+        <section class="special moves input">
+            <label for="special moves">Choose your special move:</label>
+            <input type="text" list="specials" name="moves" id="special moves" />
+            <datalist id="specials">
+                <option value="Happy Meal Boost"></option>
+                <option value="Kek Ray"></option>
+                <option value="Nibba Slam"></option>
+                <option value="Christmas Spirit"></option>
+                <option value="Holiday Bash"></option>
+                <option value="Meme Magic"></option>
+                <option value="Force Choke"></option>
+                <option value="Force Push"></option>
+                <option value="Stand Punch"></option>
+                <option value="Stand Teleport"></option>
+                <option value="Stop Time"></option>
+                <option value="Naughty List"></option>
+
+
+            </datalist>
+        </section>
+    </form>
+    <!--victory quote-->
+    <form action="" method="post" class="victory quote">
+        <br /><br />
+        <section>
+            <label for="saying">Enter Victory Saying:</label>
+            <br />
+            <textarea id="saying" name="saying" rows="6" column="14" maxlength="240" minlength="100" required spellcheck="true">
+
+</textarea>
+            <br />
+            <input type="submit" value="submit" />
+        </section>
+    </form>
+    <br /><br />
+    <form action="" method="get" class="usrPswrd">
+        <label for="password">Enter Your Password</label>
+        <input id="password" name="password" title="please use letters and numbers ONLY, no special characters(!,@,#,etc.)" type="password" minlength="8" maxlength="64" pattern="[a-zA-z0-9]+" required />
+        <input type="submit" value="Enter" />
+    </form>
+    <div>
+
+    </div>
+</body>
+</html>
